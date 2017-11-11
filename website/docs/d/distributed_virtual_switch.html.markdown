@@ -53,8 +53,8 @@ The following arguments are supported:
   name or path.
 * `datacenter_id` - (Optional) The managed object reference ID of the
   datacenter the DVS is located in. This can be omitted if the search path used
-  in `name` is an absolute path, or if there is only one datacenter in the
-  vSphere infrastructure.
+  in `name` is an absolute path. For default datacenters, use the id attribute
+  from an empty `vsphere_datacenter` data source.
 
 ## Attribute Reference
 
